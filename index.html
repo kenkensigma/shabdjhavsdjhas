@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="audio-player" autoplay>
+        <source src="Fourtwnty_Music_-_Pintu_Keluar_Official_Lyric_Video_[_YTBMP3.org_].mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    
+    
+
+    <body class="center">
+
+  
+
+
+       <br> <h1>HAPPY MOTHER'S DAY.</h1>
+      <img src="IMG20191221103551.jpg"height="200px"> 
+      <img src="IMG20191221103608.jpg"height="200px"> 
+      <img src="IMG20191221103655.jpg"height="200px">
+    <b><i><p>
+        Happy Mother's Day. I love you so much!<br>
+        You are so funny, kind and helpful. 
+        
+        <br> You make me smile and laugh and
+         <br> you are always there for me no matter what .<br>
+         ou are my favorite person in the whole entire 
+        <br>world and Love you so so much! We have so <br>
+        amazing memories and we have so much fun. <br>
+        Thank You for all the things you do for me. <br>
+        You are the BEST MOM EVER! <br>
+
+         <p><i><b>
+<div id="flower-container"></div>
+<button id="flower-button">Click For Surprise</button>
+
+<button id="play-button">Play Music</button>
+
+<script src="script.js"></script>
+
+<script>
+    window.onload = function() {
+        const audioPlayer = document.getElementById("audio-player");
+        const playButton = document.getElementById("play-button");
+
+        // Allow the user to start playing the music by clicking the button
+        playButton.addEventListener("click", function() {
+            audioPlayer.play();
+            playButton.style.display = "none"; // Hide the button after click
+        });
+    };
+</script>
+</body>
+</html>
